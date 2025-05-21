@@ -1,0 +1,14 @@
+table {
+    border-color: black;
+    background-color: black;
+    text-align: center;
+}
+
+tr {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
