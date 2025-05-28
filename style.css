@@ -1,14 +1,50 @@
 table {
+    border-spacing: 5px;
     border-color: black;
     background-color: black;
     text-align: center;
 }
 
-tr {
-    background-color: white;
+tr{
+    background-color:rgb(0, 200, 255);
 }
 
 body {
+    color: black;
+    background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.SP {color: red;}
+
+.PAL {color: green;}
+
+.circulo-fundo{
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-fundo td {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+td {
+    font-size: 20px;
+    padding: 20px;
+}
+
+th {
+    font-size: 25px;
 }
