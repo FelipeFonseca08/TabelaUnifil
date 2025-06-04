@@ -11,7 +11,7 @@ tr{
 
 body {
     color: black;
-    background-color: white;
+    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,10 +19,6 @@ body {
     height: 100vh;
     margin: 0px;
 }
-
-.SP {color: red;}
-
-.PAL {color: green;}
 
 .circulo-fundo{
     background-color: white;
@@ -47,4 +43,42 @@ td {
 
 th {
     font-size: 25px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.img:hover {
+transform: scale(1.09);
+transition: transform 0.3s ;
+}
+
+#musica {
+    color: white;
+}
+
+.botao-branco{
+    background-color: rgb(0, 255, 200);
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.botao-branco:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ;
+}
+
+.subtitulo:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ;
+}
+
+h1:hover {
+    transform: scale(1.4);
+    transition: transform 0.3s ;
 }
